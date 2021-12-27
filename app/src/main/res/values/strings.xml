@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="welcome">Bem vindo ao Reversi,</string>
+    <string name="play">Jogar</string>
+    <string name="about">Sobre</string>
+    <string name="language">PT</string>
+    <string name="reversiboardimg_description">A Reversi Board in its initial position.</string>
+    <string name="backbutton">A back button</string>
+</resources>
