@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wood"
+    tools:context=".RegrasDoJogo">
+
+    <ImageButton
+        android:id="@+id/imageButtonBackRules"
+        android:layout_width="66dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/wood"
+        android:contentDescription="@string/backbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="SpeakableTextPresentCheck,RedundantDescriptionCheck" />
+
+    <TextView
+        android:id="@+id/textViewHowToPlayRules"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/how_to_play"
+        android:textAlignment="center"
+        android:textColor="@color/dark_wood"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ImageView
+        android:id="@+id/imageViewReversiBoard"
+        android:layout_width="300dp"
+        android:layout_height="263dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/reversiboardimg_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewHowToPlayRules"
+        app:srcCompat="@drawable/how_to_play_othello_0"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewTutorial"
+        android:layout_width="300dp"
+        android:layout_height="287dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/tutorial"
+        android:textColor="@color/dark_wood"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReversiBoard"
+        app:layout_constraintVertical_bias="0.187"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

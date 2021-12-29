@@ -8,7 +8,7 @@
     tools:context=".ModosDeJogo">
 
     <ImageButton
-        android:id="@+id/imageButtonBackGameModes"
+        android:id="@+id/imageButtonBack"
         android:layout_width="66dp"
         android:layout_height="62dp"
         android:layout_marginStart="16dp"
@@ -25,60 +25,71 @@
 
     <Button
         android:id="@+id/buttonLocalGame"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
         android:backgroundTint="@color/dark_wood"
         android:text="@string/p_1v1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toEndOf="@+id/button3WayGame"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.179" />
+        app:layout_constraintVertical_bias="0.702" />
 
     <Button
         android:id="@+id/buttonOnlineGame"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
         android:backgroundTint="@color/dark_wood"
         android:text="@string/p_3"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLocalGame"
-        app:layout_constraintVertical_bias="0.175" />
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toEndOf="@+id/buttonLocalGame"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
 
     <Button
         android:id="@+id/button3WayGame"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
         android:backgroundTint="@color/dark_wood"
         android:text="@string/p_local"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonOnlineGame"
-        app:layout_constraintVertical_bias="0.51" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
 
     <TextView
         android:id="@+id/textViewHowToPlayGameModes"
-        android:layout_width="217dp"
+        android:layout_width="220dp"
         android:layout_height="61dp"
-        android:layout_marginBottom="24dp"
         android:alpha="0.5"
         android:text="@string/how_to_play"
         android:textAlignment="center"
-        android:textAllCaps="false"
         android:textSize="32sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/buttonLocalGame"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOnlineGame"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.941" />
 
+    <ImageView
+        android:id="@+id/imageViewInfoIcon"
+        android:layout_width="44dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLocalGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="@+id/textViewHowToPlayGameModes"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
 </androidx.constraintlayout.widget.ConstraintLayout>

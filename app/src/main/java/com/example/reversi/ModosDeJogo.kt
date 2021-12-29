@@ -3,7 +3,8 @@ package com.example.reversi
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.widget.ImageButton
+import android.widget.TextView
 
 class ModosDeJogo : AppCompatActivity() {
 
@@ -14,10 +15,17 @@ class ModosDeJogo : AppCompatActivity() {
         supportActionBar?.hide()
         actionBar?.hide()
 
-        val backbutton = findViewById<Button>(R.id.imageButtonBack)
+        val backbutton = findViewById<ImageButton>(R.id.imageButtonBackGameModes)
         backbutton.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            val bbIntent = Intent(this, MenuPrincipal::class.java)
+            startActivity(bbIntent)
         }
+
+        val howtoplay = findViewById<TextView>(R.id.textViewHowToPlayGameModes)
+        howtoplay.setOnClickListener{
+            val htpIntent = Intent(this, RegrasDoJogo::class.java)
+            startActivity(htpIntent)
+        }
+
     }
 }
