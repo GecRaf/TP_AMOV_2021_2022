@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rafac/Desktop/TP_AMOV_2021_2022/TP_AMOV_2021_2022/app/src/main/res/drawable/black_stone.xml" value="0.1" />
+        <entry key="..\:/Users/Rafac/Desktop/TP_AMOV_2021_2022/TP_AMOV_2021_2022/app/src/main/res/drawable/white_stone.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Rafac/Desktop/TP_AMOV_2021_2022/TP_AMOV_2021_2022/app/src/main/res/drawable/whote_stone.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Rafac/Desktop/TP_AMOV_2021_2022/TP_AMOV_2021_2022/app/src/main/res/layout-land/activity_main.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/Rafac/Desktop/TP_AMOV_2021_2022/TP_AMOV_2021_2022/app/src/main/res/layout/activity_game.xml" value="0.15932117527862208" />
+        <entry key="..\:/Users/Rafac/Desktop/TP_AMOV_2021_2022/TP_AMOV_2021_2022/app/src/main/res/layout/activity_main.xml" value="0.15932117527862208" />
+        <entry key="..\:/Users/Rafac/Desktop/TP_AMOV_2021_2022/TP_AMOV_2021_2022/app/src/main/res/layout/game_grid.xml" value="0.33" />
         <entry key="..\:/Users/Utilizador/AndroidStudioProjects/Reversi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Utilizador/AndroidStudioProjects/Reversi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Utilizador/AndroidStudioProjects/Reversi/app/src/main/res/layout-land/activity_main.xml" value="0.33" />

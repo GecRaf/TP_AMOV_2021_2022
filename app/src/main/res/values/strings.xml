@@ -1,13 +1,19 @@
 <resources>
+<<<<<<< Updated upstream
     <!-- geral -->
     <string name="app_name">Reversi</string>
     <!-- Ecrã Inicial -->
+=======
+    <string name="app_name">Reversi</string>
+>>>>>>> Stashed changes
     <string name="welcome">Bem vindo ao Reversi,</string>
     <string name="play">Jogar</string>
     <string name="about">Sobre</string>
-    <string name="language">PT</string>
+    <string name="language_pt">PT</string>
+    <string name="language_eng">ENG</string>
     <string name="reversiboardimg_description">A Reversi Board in its initial position.</string>
     <string name="backbutton">A back button</string>
+<<<<<<< Updated upstream
     <string name="profile">Perfil</string>
     <!-- Menu Modos de jogo -->
     <string name="p_local">Jogo Local</string>
@@ -17,4 +23,11 @@
     <string name="info_icon_description">A info icon</string>
     <!-- Regras Do Jogo -->
     <string name="tutorial">O jogo começa com quatro peças posicionadas no centro do tabuleiro em forma de um quadrado, duas com o lado branco virado para cima e duas com o lado preto. \nO jogador deve jogar a sua peça de forma a encurralar horizontal, vertical ou diagonalmente uma linha de peças consecutivas do adversário entre duas das suas peças. As peças encurraladas mudam para a cor do jogador. \nQuando nenhum jogador tiver uma jogada possível, o jogador com mais peças ganha.</string>
+=======
+    <string name="textGameCurrentPlayer"></string>
+    <string name="textGameWinner"></string>
+    <string name="textTopModeManualButton"></string>
+    <string name="textTopModeAIWeakButton"></string>
+    <string name="textTopModeAIStrongButton"></string>
+>>>>>>> Stashed changes
 </resources>
