@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reversi">
         <activity
-            android:name=".Perfil"
+            android:name=".Jogo.Perfil"
             android:exported="false" />
         <activity
-            android:name=".RegrasDoJogo"
+            android:name=".Jogo.RegrasDoJogo"
             android:exported="false" />
         <activity
-            android:name=".ModosDeJogo"
+            android:name=".Jogo.ModosDeJogo"
             android:exported="false" />
         <activity
-            android:name=".MenuPrincipal"
+            android:name=".Jogo.MenuPrincipal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

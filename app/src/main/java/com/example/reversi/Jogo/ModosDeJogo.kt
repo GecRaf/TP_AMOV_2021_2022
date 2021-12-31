@@ -1,10 +1,12 @@
-package com.example.reversi
+package com.example.reversi.Jogo
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
+import com.example.reversi.R
+import com.example.reversi.Jogo.RegrasDoJogo
 
 class ModosDeJogo : AppCompatActivity() {
 

@@ -1,9 +1,10 @@
-package com.example.reversi
+package com.example.reversi.Jogo
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import com.example.reversi.R
 
 class RegrasDoJogo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

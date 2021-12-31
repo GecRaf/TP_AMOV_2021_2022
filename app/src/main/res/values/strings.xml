@@ -21,7 +21,7 @@
     <string name="p_3">Jogo a 3</string>
     <string name="how_to_play"><u>Como Jogar</u></string>
     <string name="info_icon_description">A info icon</string>
-    <!-- Regras Do Jogo -->
+    <!-- Regras Do com.example.reversi.Jogo -->
     <string name="tutorial">O jogo começa com quatro peças posicionadas no centro do tabuleiro em forma de um quadrado, duas com o lado branco virado para cima e duas com o lado preto. \nO jogador deve jogar a sua peça de forma a encurralar horizontal, vertical ou diagonalmente uma linha de peças consecutivas do adversário entre duas das suas peças. As peças encurraladas mudam para a cor do jogador. \nQuando nenhum jogador tiver uma jogada possível, o jogador com mais peças ganha.</string>
 =======
     <string name="textGameCurrentPlayer"></string>
